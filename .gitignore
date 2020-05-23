@@ -1,0 +1,8 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore node_modules folder
+.ipynb_checkpoints
+
+# Ignore all text files
+*.txt

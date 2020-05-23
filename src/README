@@ -1,0 +1,23 @@
+################################################################################
+#
+#  SSMODELS /src/ directory
+#
+#  *  /ssmodels/
+#     Contains the 'ssmodels' R package. Should _NOT_ be modified unless you
+#     Know What You Are Doing (TM). Has an internal git repository to allow
+#     versioning.
+#
+#     To build and deploy a new version, from the command line in the /rsys/
+#     directory type:
+#
+#     > R CMD build src
+#     > R CMD INSTALL ssmodels_0.1-0.tar.gz
+#
+#     To generate a pdf underhill package document, from the command line in the
+#     /src/ directtory type:
+#
+#     > R CMD Rd2pdf src
+#
+#     where you have replaced "0.0-1" with the latest version number.
+#
+################################################################################

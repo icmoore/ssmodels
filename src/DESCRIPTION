@@ -1,0 +1,12 @@
+Package: ssmodels
+Type: Package
+Title: ssmodels: R Package for the ssmodels System
+Version: 0.1-0
+Date: 2020-05-23
+Author: Ian Moore
+Maintainer: Ian Moore <ianc.moore@yahoo.com>
+Description: Time series by state space methods 
+Depends: R (>= 2.15)
+License: GPL (>=2)
+Packaged: 2020-05-23 23:19:12 UTC; vagrant
+NeedsCompilation: no

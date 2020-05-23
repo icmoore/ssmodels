@@ -2,7 +2,7 @@ likSS=function(coefs,ord,y,X0,D0,type){
   
   arimaModel <- function(coefs) {
     mod0 = arimaSS(coefs,ord,y,D0,0)
-    mod0 = designMatrixSS(coefs, ord, y, X0, mod0)
+    mod0 = designMatrixSS(coefs, ord, y, X0, mod0) ## potential bug may 23, 2020
     return(mod0)
   }  
   

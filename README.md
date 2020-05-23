@@ -10,7 +10,7 @@ The following methods are supported:
 - Local Level Trend
 - Basic Structural Model
 
-### Installing
+### Build & Install
 
 ```
 > cd /path/to/repos/ssmodels

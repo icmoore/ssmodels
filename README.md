@@ -1,7 +1,7 @@
 # R-package: ssmodels
 ## Time series using state space methods
 
-The motivation behind this R package was to develop a suite of tools using state space methods from first principles. Hence, allowing for complete control over the underlying methodologies. This package has no required dependencies, and does make any direct calls to underlying C-functions. This is useful for educational purposes, research, or for re-factoring to another language. 
+The motivation behind this R package was to develop a suite of tools using state space methods from first principles. Hence, allowing for complete control over the underlying methodologies. This package has no required dependencies, and makes no direct calls to underlying C functions. This is useful for educational purposes, research, or for re-factoring to another language. 
 
 The following methods are supported:
 - ARIMA

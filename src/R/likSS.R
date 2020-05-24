@@ -1,8 +1,9 @@
 likSS=function(coefs,ord,y,X0,D0,type){
   
   arimaModel <- function(coefs) {
+    ## potential bug may 23, 2020
     mod0 = arimaSS(coefs,ord,y,D0,0)
-    mod0 = designMatrixSS(coefs, ord, y, X0, mod0) ## potential bug may 23, 2020
+    mod0 = designMatrixSS(coefs, ord, y, X0, mod0) 
     return(mod0)
   }  
   
@@ -46,8 +47,15 @@ likSS=function(coefs,ord,y,X0,D0,type){
                         trend = localLevelTrendModel(coefs), 
                         BSM = basicSeasonalModel(coefs))
   
-  kf = kalmanLL(y,mod0)
-  LL = as.numeric(kf$LL)
+
+  if(type == 'arima'){
+    # patch fix; see arimaModel function above
+    # date: may 23, 2020  
+    LL = likARMA(coefs, ord, y, 0)
+  } else {
+    kf = kalmanLL(y,mod0)
+    LL = as.numeric(kf$LL) 
+  }
   
   return(LL)
 }

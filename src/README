@@ -7,7 +7,7 @@
 #     Know What You Are Doing (TM). Has an internal git repository to allow
 #     versioning.
 #
-#     To build and deploy a new version, from the command line in the /rsys/
+#     To build and deploy a new version, from the command line in the /ssmodels/
 #     directory type:
 #
 #     > R CMD build src

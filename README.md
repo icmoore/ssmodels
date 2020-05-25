@@ -5,6 +5,7 @@ The motivation behind this R package was to develop a suite of tools using state
 
 The following methods are supported:
 - ARIMA
+- ARIMA + Regression
 - ARIMAX
 - Local Level
 - Local Level Trend

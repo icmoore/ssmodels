@@ -8,5 +8,5 @@ Maintainer: Ian Moore <ianc.moore@yahoo.com>
 Description: Time series by state space methods 
 Depends: R (>= 2.15)
 License: GPL (>=2)
-Packaged: 2020-05-23 23:19:12 UTC; vagrant
+Packaged: 2020-05-23 17:24:02 UTC; nicolle_nordmann
 NeedsCompilation: no

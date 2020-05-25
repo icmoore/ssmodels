@@ -39,8 +39,8 @@ kalmanLL=function(y,mod){
     
   }
   
-  #L = logsum + N*log(sumsq);
-  L = 0.5*(log(sumsq/N) + logsum/N);
+  L = logsum + N*log(sumsq);
+  #L = 0.5*(log(sumsq/N) + logsum/N);
   Ld = 0.5*N*log(2*pi) + 0.5*logsum + N*log(sumsq)
 
   sigmahat2 = sumsq/N;
